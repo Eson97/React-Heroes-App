@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en SearchScreen should show correctly with default values 1`] = `
+Array [
+  " ",
+  <div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="input-group mb-3"
+        style={
+          Object {
+            "maxWidth": 520,
+          }
+        }
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="inputSearch"
+          onChange={[Function]}
+          placeholder="Find your Hero!!"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-outline-secondary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </div>
+    </form>
+    <hr />
+    <div
+      className="row"
+    />
+  </div>,
+]
+`;
